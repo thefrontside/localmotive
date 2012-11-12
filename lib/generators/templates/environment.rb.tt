@@ -1,0 +1,3 @@
+<%= Rails.application.class.parent_name %>::Application.configure do |config|
+  # these settings will only apply in the <%= @env %> environment when running locally
+end

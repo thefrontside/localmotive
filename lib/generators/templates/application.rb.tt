@@ -1,0 +1,3 @@
+<%= Rails.application.class.parent_name %>::Application.configure do |config|
+  # put stuff in here that should apply to all environments when running locally
+end
