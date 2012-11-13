@@ -17,6 +17,14 @@ Add this to your rails application's development group:
       gem 'localmotive'
     end
 
+If you want to use localmotive in environments other than just development, you can either enumerate them
+
+    gem 'localmotive', :groups => [:development, :test]
+
+Or just add it to the default group
+
+    gem 'localmotive'
+
 ## Usage
 
 To get started, run the install command
