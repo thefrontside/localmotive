@@ -1,3 +1,4 @@
-<%= Rails.application.class.parent_name %>::Application.configure do |config|
-  # these settings will only apply in the <%= @env %> environment when running locally
+<%= Rails.application.class.parent_name %>::Application.configure do
+  # these settings will only apply in the <%= @env %> environment when running locally. e.g.
+  # config.cache_classes = false
 end

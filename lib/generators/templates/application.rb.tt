@@ -1,3 +1,4 @@
-<%= Rails.application.class.parent_name %>::Application.configure do |config|
-  # put stuff in here that should apply to all environments when running locally
+<%= Rails.application.class.parent_name %>::Application.configure do
+  # put stuff in here that should apply to all environments when running locally. e.g.
+  # config.log_level = :debug
 end
